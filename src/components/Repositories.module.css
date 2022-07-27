@@ -1,0 +1,19 @@
+.repositories ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: stretch;
+}
+.repositories ul li{
+    width: 25%;
+}
+.repositories ul div{
+    cursor: pointer;
+    background-color: white;
+    padding: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.repositories ul div:hover{
+    background-color: gainsboro;
+}
